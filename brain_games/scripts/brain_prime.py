@@ -22,10 +22,10 @@ def generate_question_and_answer():
 
 def main():
     name = welcome_user()
-    game_description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    game_description = ('Answer "yes" if given number is prime.'
+                        'Otherwise answer "no".')
     run_game(game_description, generate_question_and_answer, name)
-    
-    
+
+
 if __name__ == "__main__":
     main()
-    

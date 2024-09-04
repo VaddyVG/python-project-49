@@ -22,6 +22,6 @@ def main():
     game_description = "What number is missing in the progression?"
     run_game(game_description, generate_question_and_answer, name)
 
-  
+
 if __name__ == "__main__":
     main()
