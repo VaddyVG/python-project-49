@@ -1,9 +1,9 @@
-# Ignore virtual environment directory
+
 .venv/
 .env/
 venv/
 
-# Python
+
 *.pyc
 *.pyo
 *.pyd
@@ -11,12 +11,12 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Build directories
+
 build/
 dist/
 *.egg-info/
 
-# Package distribution files
+
 *.whl
 *.tar.gz
 
